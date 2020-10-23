@@ -9,7 +9,7 @@ inputs:
     description: (head) branch name
   target_branch_name:
     description: target(base) branch name to merge
-    default: master
+    default: main
   title:
     description: title for pull request
     default: create by GitHub Action
