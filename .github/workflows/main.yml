@@ -45,16 +45,25 @@ jobs:
       with:
         github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
         branch: ${{ env.BRANCH_NAME }}
+
     - name: Create pull request
+      id: create-pull-request
       if: success() && env.CHANGE_STATE == 'changed'
-      uses: poad/github-pull-requester@main
+      uses: poad/github-pull-requester@v0.0.1
       with:
-        head-branch: ${{ env.BRANCH_NAME }}
+        head_branch: ${{ env.BRANCH_NAME }}
         title: ${{ format('Auto update at {0}', env.TIMESTAMP) }}
         body: ${{ format('Update the modules at {0}', env.TIMESTAMP) }}
-        github-token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
-        repository: ${{ github.repository }}
-        owner: ${{ github.repository.owner.name }}
+        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        repository: next-ts-minimal-template
+        owner: poad
+    - name: Extract response
+      env:
+        RESULT: ${{ steps.create-pull-request.outputs.result }}
+      run: |
+        PULL_REQUEST_HTML_URL=$(echo ${RESULT} | jq -r .data.html_url)
+        echo "PULL_REQUEST_HTML_URL=${PULL_REQUEST_HTML_URL}" >> $GITHUB_ENV
+
     - name: Send result with Pull Request
       if: success() && env.CHANGE_STATE == 'changed'
       uses: ./.github/actions/slack_notificator
