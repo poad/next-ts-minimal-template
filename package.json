@@ -10,7 +10,7 @@
     "lint": "eslint --ext .ts,.js,.tsx,.jsx src"
   },
   "dependencies": {
-    "@types/node": "^16.7.4",
+    "@types/node": "^16.7.5",
     "@types/react": "^17.0.19",
     "cross-fetch": "^3.1.4",
     "linaria": "^2.1.0",
