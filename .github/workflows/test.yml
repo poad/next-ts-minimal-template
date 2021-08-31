@@ -19,7 +19,7 @@ jobs:
       with:
         node-version: 14.x
         check-latest: true
-        cache: npm
+        cache: yarn
 
     - uses: actions/cache@v2
       with:
