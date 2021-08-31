@@ -19,19 +19,14 @@ jobs:
       with:
         node-version: 14.x
         check-latest: true
-        cache: yarn
-
-    - name: Get yarn cache directory path
-      id: yarn-cache-dir-path
-      run: echo "::set-output name=dir::$(yarn cache dir)"
+        cache: npm
 
     - uses: actions/cache@v2
-      id: yarn-cache
       with:
-        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
-          ${{ runner.os }}-yarn-
+          ${{ runner.os }}-node-
 
     - run: yarn install
     - run: yarn lint
@@ -40,6 +35,9 @@ jobs:
   
   configure:
     runs-on: ubuntu-latest
+
+    if: github.actor != 'dependabot[bot]'
+
     steps:
     - name: Pull request auto merge enabler
       if: github.event_name == 'pull_request'
