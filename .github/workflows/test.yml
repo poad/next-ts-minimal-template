@@ -4,8 +4,10 @@ on:
   pull_request:
     branches:
       - main
+  push:
+    branches:    
+    - main 
 
-  # Try enabling auto-merge for the specified pull request or all open pull requests if none is specified.
   workflow_dispatch:
 
 jobs:
