@@ -781,10 +781,10 @@
     "@swc/core-win32-ia32-msvc" "^1.2.84"
     "@swc/core-win32-x64-msvc" "^1.2.84"
 
-"@swc/jest@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@swc/jest/-/jest-0.2.2.tgz#46431ad632ee88349fc4de2a8b6a251fe9d9e8e3"
-  integrity sha512-jmuJkxxloxpCU/c30iHFtJ/Kz2zPQSqBhjFOBBIY5XcHnksKmcwxDn0ZiQgbPXLW/M3yX95NPgykhP0JmXpL7w==
+"@swc/jest@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@swc/jest/-/jest-0.2.3.tgz#5c32aaa6298267a955d35eb67094edabd5db598f"
+  integrity sha512-ARZIY5OkXdFRQLHc/1i+yKrl0H3B1sa7Bu9XE8yTvYZZ4G5Ewu6oyyJBM52TiROP6EpMcF7ZeQQsKMZvzuKkNw==
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -3078,16 +3078,6 @@ jest-diff@^27.0.0, jest-diff@^27.1.1:
     jest-get-type "^27.0.6"
     pretty-format "^27.1.1"
 
-jest-diff@^27.1.1:
-  version "27.1.1"
-  resolved "https://registry.yarnpkg.com/jest-diff/-/jest-diff-27.1.1.tgz#1d1629ca2e3933b10cb27dc260e28e3dba182684"
-  integrity sha512-m/6n5158rqEriTazqHtBpOa2B/gGgXJijX6nsEgZfbJ/3pxQcdpVXBe+FP39b1dxWHyLVVmuVXddmAwtqFO4Lg==
-  dependencies:
-    chalk "^4.0.0"
-    diff-sequences "^27.0.6"
-    jest-get-type "^27.0.6"
-    pretty-format "^27.1.1"
-
 jest-docblock@^27.0.6:
   version "27.0.6"
   resolved "https://registry.yarnpkg.com/jest-docblock/-/jest-docblock-27.0.6.tgz#cc78266acf7fe693ca462cbbda0ea4e639e4e5f3"
@@ -4227,16 +4217,6 @@ prelude-ls@~1.1.2:
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
 pretty-format@^27.0.0, pretty-format@^27.1.1:
-  version "27.1.1"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.1.1.tgz#cbaf9ec6cd7cfc3141478b6f6293c0ccdbe968e0"
-  integrity sha512-zdBi/xlstKJL42UH7goQti5Hip/B415w1Mfj+WWWYMBylAYtKESnXGUtVVcMVid9ReVjypCotUV6CEevYPHv2g==
-  dependencies:
-    "@jest/types" "^27.1.1"
-    ansi-regex "^5.0.0"
-    ansi-styles "^5.0.0"
-    react-is "^17.0.1"
-
-pretty-format@^27.1.1:
   version "27.1.1"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.1.1.tgz#cbaf9ec6cd7cfc3141478b6f6293c0ccdbe968e0"
   integrity sha512-zdBi/xlstKJL42UH7goQti5Hip/B415w1Mfj+WWWYMBylAYtKESnXGUtVVcMVid9ReVjypCotUV6CEevYPHv2g==
