@@ -11,7 +11,7 @@
     "all": "yarn install && yarn lint && yarn build && yarn test"
   },
   "dependencies": {
-    "@types/react": "^17.0.21",
+    "@types/react": "^17.0.22",
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -22,15 +22,15 @@
     "@swc/jest": "^0.2.2",
     "@types/jest": "^27.0.1",
     "@types/node": "^16.9.4",
-    "@typescript-eslint/eslint-plugin": "^4.31.1",
-    "@typescript-eslint/parser": "^4.31.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-airbnb-typescript": "^14.0.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "^11.1.2",
     "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-flowtype": "^6.0.1",
+    "eslint-plugin-flowtype": "^6.1.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jest": "^24.4.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
