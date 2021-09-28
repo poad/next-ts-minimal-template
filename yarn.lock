@@ -3204,17 +3204,7 @@ jest-leak-detector@^27.2.3:
     jest-get-type "^27.0.6"
     pretty-format "^27.2.3"
 
-jest-matcher-utils@^27.2.2:
-  version "27.2.2"
-  resolved "https://registry.yarnpkg.com/jest-matcher-utils/-/jest-matcher-utils-27.2.2.tgz#a6c0a10dce6bfe8250bbed3e2f1b206568d73bde"
-  integrity sha512-xN3wT4p2i9DGB6zmL3XxYp5lJmq9Q6ff8XKlMtVVBS2SAshmgsPBALJFQ8dWRd2G/xf5q/N0SD0Mipt8QBA26A==
-  dependencies:
-    chalk "^4.0.0"
-    jest-diff "^27.2.2"
-    jest-get-type "^27.0.6"
-    pretty-format "^27.2.2"
-
-jest-matcher-utils@^27.2.3:
+jest-matcher-utils@^27.2.2, jest-matcher-utils@^27.2.3:
   version "27.2.3"
   resolved "https://registry.yarnpkg.com/jest-matcher-utils/-/jest-matcher-utils-27.2.3.tgz#db7f992f3921f5004f4de36aafa0c03f2565122a"
   integrity sha512-8n2/iAEOtNoDxVtUuaGtQdbSVYtZn6saT+PyV8UIf9fJErzDdozjB4fUxJm7TX1DzhhoAKFpIFH8UNvG4942PA==
