@@ -22,7 +22,7 @@
     "@swc/jest": "^0.2.5",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.5",
-    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.1.0",
     "eslint": "^8.1.0",
     "eslint-config-airbnb-base": "^14.2.1",
