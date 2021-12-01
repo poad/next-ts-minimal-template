@@ -17,8 +17,6 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@swc/cli": "^0.1.52",
-    "@swc/core": "1.2.115",
     "@swc/jest": "^0.2.11",
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.11",
@@ -40,6 +38,6 @@
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^9.0.0",
     "swc-loader": "^0.1.15",
-    "typescript": "<4.5.0"
+    "typescript": "<4.6.0"
   }
 }
