@@ -464,7 +464,7 @@
   dependencies:
     "@jest/types" "^27.4.2"
 
-"@jest/environment@^27.4.2", "@jest/environment@^27.4.4":
+"@jest/environment@^27.4.4":
   version "27.4.4"
   resolved "https://registry.yarnpkg.com/@jest/environment/-/environment-27.4.4.tgz#66ebebc79673d84aad29d2bb70a8c51e6c29bb4d"
   integrity sha512-q+niMx7cJgt/t/b6dzLOh4W8Ef/8VyKG7hxASK39jakijJzbFBGpptx3RXz13FFV7OishQ9lTbv+dQ5K3EhfDQ==
@@ -3061,12 +3061,12 @@ jest-haste-map@^27.4.2, jest-haste-map@^27.4.4:
     fsevents "^2.3.2"
 
 jest-jasmine2@^27.4.2:
-  version "27.4.2"
-  resolved "https://registry.yarnpkg.com/jest-jasmine2/-/jest-jasmine2-27.4.2.tgz#c956c88b9c05ca22afdc779deebc2890cb891797"
-  integrity sha512-VO/fyAJSH9u0THjbteFiL8qc93ufU+yW+bdieDc8tzTCWwlWzO53UHS5nFK1qmE8izb5Smkn+XHlVt6/l06MKQ==
+  version "27.4.4"
+  resolved "https://registry.yarnpkg.com/jest-jasmine2/-/jest-jasmine2-27.4.4.tgz#1fcdc64de932913366e7d5f2960c375e1145176e"
+  integrity sha512-ygk2tUgtLeN3ouj4KEYw9p81GLI1EKrnvourPULN5gdgB482PH5op9gqaRG0IenbJhBbbRwiSvh5NoBoQZSqdA==
   dependencies:
     "@babel/traverse" "^7.1.0"
-    "@jest/environment" "^27.4.2"
+    "@jest/environment" "^27.4.4"
     "@jest/source-map" "^27.4.0"
     "@jest/test-result" "^27.4.2"
     "@jest/types" "^27.4.2"
@@ -3078,8 +3078,8 @@ jest-jasmine2@^27.4.2:
     jest-each "^27.4.2"
     jest-matcher-utils "^27.4.2"
     jest-message-util "^27.4.2"
-    jest-runtime "^27.4.2"
-    jest-snapshot "^27.4.2"
+    jest-runtime "^27.4.4"
+    jest-snapshot "^27.4.4"
     jest-util "^27.4.2"
     pretty-format "^27.4.2"
     throat "^6.0.1"
