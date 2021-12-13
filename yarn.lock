@@ -1135,11 +1135,11 @@ axobject-query@^2.2.0:
   integrity sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==
 
 babel-jest@^27.4.4:
-  version "27.4.4"
-  resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-27.4.4.tgz#a012441f8a155df909839543a09510ab3477aa11"
-  integrity sha512-+6RVutZxOQgJkt4svgTHPFtOQlVe9dUg3wrimIAM38pY6hL/nsL8glfFSUjD9jNVjaVjzkCzj6loFFecrjr9Qw==
+  version "27.4.5"
+  resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-27.4.5.tgz#d38bd0be8ea71d8b97853a5fc9f76deeb095c709"
+  integrity sha512-3uuUTjXbgtODmSv/DXO9nZfD52IyC2OYTFaXGRzL0kpykzroaquCrD5+lZNafTvZlnNqZHt5pb0M08qVBZnsnA==
   dependencies:
-    "@jest/transform" "^27.4.4"
+    "@jest/transform" "^27.4.5"
     "@jest/types" "^27.4.2"
     "@types/babel__core" "^7.1.14"
     babel-plugin-istanbul "^6.0.0"
