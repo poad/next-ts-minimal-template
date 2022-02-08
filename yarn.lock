@@ -2647,12 +2647,7 @@ jest-pnp-resolver@^1.2.2:
   resolved "https://registry.yarnpkg.com/jest-pnp-resolver/-/jest-pnp-resolver-1.2.2.tgz#b704ac0ae028a89108a4d040b3f919dfddc8e33c"
   integrity sha512-olV41bKSMm8BdnuMsewT4jqlZ8+3TCARAXjZGT9jcoSnrfUnRCqnMoF9XEeoWjbzObpqF9dRhHQj0Xb9QdF6/w==
 
-jest-regex-util@^27.5.0:
-  version "27.5.0"
-  resolved "https://registry.yarnpkg.com/jest-regex-util/-/jest-regex-util-27.5.0.tgz#26c26cf15a73edba13cb8930e261443d25ed8608"
-  integrity sha512-e9LqSd6HsDsqd7KS3rNyYwmQAaG9jq4U3LbnwVxN/y3nNlDzm2OFs596uo9zrUY+AV1opXq6ome78tRDUCRWfA==
-
-jest-regex-util@^27.5.1:
+jest-regex-util@^27.5.0, jest-regex-util@^27.5.1:
   version "27.5.1"
   resolved "https://registry.yarnpkg.com/jest-regex-util/-/jest-regex-util-27.5.1.tgz#4da143f7e9fd1e542d4aa69617b38e4a78365b95"
   integrity sha512-4bfKq2zie+x16okqDXjXn9ql2B0dScQu+vcwe4TvFVhkVyuWLqpZrZtXxLLWoXYgn0E87I6r6GRYHF7wFZBUvg==
