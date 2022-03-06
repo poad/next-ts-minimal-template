@@ -40,10 +40,6 @@
         "../*"
       ]
     },
-    "types": [
-      "node",
-      "react"
-    ],
     "incremental": true
   },
   "exclude": [
