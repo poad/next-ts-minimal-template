@@ -357,7 +357,7 @@
     jest-util "^28.0.1"
     slash "^3.0.0"
 
-"@jest/core@^28.0.0", "@jest/core@^28.0.1":
+"@jest/core@^28.0.1":
   version "28.0.1"
   resolved "https://registry.yarnpkg.com/@jest/core/-/core-28.0.1.tgz#9d3cd1f157f3e53c0e61e242ae39a1872befc374"
   integrity sha512-hTxTpwJPOwHpCFwo4s6QVHq423RtZNaBsb/JQdicLzGvQuxnAzvaA7H3NFiv+TB6ExSOdW5aG2Q5nz/IwYCHIQ==
@@ -1663,10 +1663,10 @@ eslint-plugin-react-hooks@4.3.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.3.0.tgz#318dbf312e06fab1c835a4abef00121751ac1172"
   integrity sha512-XslZy0LnMn+84NEG9jSGR6eGqaZB3133L8xewQo3fQagbQuGt7a63gf+P1NGKZavEYEC3UXaWEAA/AqDkuN6xA==
 
-eslint-plugin-react-hooks@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.4.0.tgz#71c39e528764c848d8253e1aa2c7024ed505f6c4"
-  integrity sha512-U3RVIfdzJaeKDQKEJbz5p3NW8/L80PCATJAfuojwbaEL+gBjfGdhUcGde+WGUW46Q5sr/NgxevsIiDtNXrvZaQ==
+eslint-plugin-react-hooks@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.5.0.tgz#5f762dfedf8b2cf431c689f533c9d3fa5dcf25ad"
+  integrity sha512-8k1gRt7D7h03kd+SAAlzXkQwWK22BnK6GKZG+FJA6BAGy22CFvl8kCIXKpVux0cCxMWDQUPqSok0LKaZ0aOcCw==
 
 eslint-plugin-react@7.29.1:
   version "7.29.1"
@@ -2365,7 +2365,7 @@ jest-circus@^28.0.1:
     stack-utils "^2.0.3"
     throat "^6.0.1"
 
-jest-cli@^28.0.0:
+jest-cli@^28.0.1:
   version "28.0.1"
   resolved "https://registry.yarnpkg.com/jest-cli/-/jest-cli-28.0.1.tgz#0d1b90e6726dab104cb5f5e7e8fcdef20ba75644"
   integrity sha512-N6m5FwG0E0sFuhT6eRhskvfPrm+e5UXoErdR1cw2csIlpZpzvnl+bP60JH/UAG9KW1wYNDo2N3tVYn/zoMbhOA==
@@ -2705,14 +2705,14 @@ jest-worker@^28.0.1:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@^28.0.0:
-  version "28.0.0"
-  resolved "https://registry.yarnpkg.com/jest/-/jest-28.0.0.tgz#d7b84c08aa265eac52b22c4887f540025a8a222e"
-  integrity sha512-Zl07FoxrV6em3/sBqSRepHWBtcqJ3BKbwmZ1CyeuHPKkSjhOqUEG/OcuJd/5pKP3wqRovoF6aHR1ID+2Qz/ufQ==
+jest@^28.0.1:
+  version "28.0.1"
+  resolved "https://registry.yarnpkg.com/jest/-/jest-28.0.1.tgz#064ab082ba3af4c09fc0b227c14b17858083eda7"
+  integrity sha512-rqP6qSiZ00LUpajUBJIBKjCSE2tOy4x0Y/HI4EJntg51tND02VEiKjKkzgebFyMsFs85H+HGxLgezwOwa1bfwA==
   dependencies:
-    "@jest/core" "^28.0.0"
+    "@jest/core" "^28.0.1"
     import-local "^3.0.2"
-    jest-cli "^28.0.0"
+    jest-cli "^28.0.1"
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -3233,13 +3233,13 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react-dom@^18.0.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.0.0.tgz#26b88534f8f1dbb80853e1eabe752f24100d8023"
-  integrity sha512-XqX7uzmFo0pUceWFCt7Gff6IyIMzFUn7QMZrbrQfGxtaxXZIcGQzoNpRLE3fQLnS4XzLLPMZX2T9TRcSrasicw==
+react-dom@^18.1.0:
+  version "18.1.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.1.0.tgz#7f6dd84b706408adde05e1df575b3a024d7e8a2f"
+  integrity sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==
   dependencies:
     loose-envify "^1.1.0"
-    scheduler "^0.21.0"
+    scheduler "^0.22.0"
 
 react-is@^16.13.1:
   version "16.13.1"
@@ -3350,10 +3350,10 @@ safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
 
-scheduler@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.21.0.tgz#6fd2532ff5a6d877b6edb12f00d8ab7e8f308820"
-  integrity sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==
+scheduler@^0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.22.0.tgz#83a5d63594edf074add9a7198b1bae76c3db01b8"
+  integrity sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==
   dependencies:
     loose-envify "^1.1.0"
 
