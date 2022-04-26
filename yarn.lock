@@ -2498,12 +2498,12 @@ jest-haste-map@^28.0.0:
     fsevents "^2.3.2"
 
 jest-leak-detector@^28.0.0:
-  version "28.0.0"
-  resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-28.0.0.tgz#e4ba7601a083cbeda784af540ed694bf206c9910"
-  integrity sha512-P4KWylb4x6Q/jctJtGKJSD3PkUjgSIu/JOpstWwgYFvGfNKtAGXEfIY6nlGSBTCajSuPs7WXUNMQXiYqKwivgg==
+  version "28.0.1"
+  resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-28.0.1.tgz#26e4737145ee6b2aef871eda2f9606bd63fb33ca"
+  integrity sha512-g+0cRjOeNy0Wy/9LfgzyyVjKNnkFddEXisac+5arM3JwdW4hjZJR+5lwiIuMxuPtacldLWhu0pN63KV+Z33smQ==
   dependencies:
     jest-get-type "^28.0.0"
-    pretty-format "^28.0.0"
+    pretty-format "^28.0.1"
 
 jest-matcher-utils@^27.0.0:
   version "27.5.1"
@@ -3201,10 +3201,10 @@ pretty-format@^27.0.0, pretty-format@^27.5.1:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-pretty-format@^28.0.0:
-  version "28.0.0"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-28.0.0.tgz#d0bd7ece4a113692865ec493df0a26490c791d21"
-  integrity sha512-CoBfnZavDij+aBzQCVWIIYaZEe1ifIGLI2lG+c3/spHWhpeSt4kpjGd5W50GqtdtbL/Ojx4ZonGIqZVdUNoBGQ==
+pretty-format@^28.0.0, pretty-format@^28.0.1:
+  version "28.0.1"
+  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-28.0.1.tgz#ae6753bd2bf26fdd552f41194568ccbef23d22af"
+  integrity sha512-utVSIy0ImophYyJALfiWULOeMnfoxLZEzii/92VcSzN7OX5U1r7erAMqfDJyuv31ugw4Rp5tOYUMndsZV1w8DQ==
   dependencies:
     "@jest/schemas" "^28.0.0"
     ansi-regex "^5.0.1"
@@ -3257,9 +3257,9 @@ react-is@^17.0.1:
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
 react-is@^18.0.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.0.0.tgz#026f6c4a27dbe33bf4a35655b9e1327c4e55e3f5"
-  integrity sha512-yUcBYdBBbo3QiPsgYDcfQcIkGZHfxOaoE6HLSnr1sPzMhdyxusbfKOSUbSd/ocGi32dxcj366PsTj+5oggeKKw==
+  version "18.1.0"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.1.0.tgz#61aaed3096d30eacf2a2127118b5b41387d32a67"
+  integrity sha512-Fl7FuabXsJnV5Q1qIOQwx/sagGF18kogb4gpfcG4gjLBWO0WDiiz1ko/ExayuxE7InyQkBLkxRFG5oxY6Uu3Kg==
 
 react@^18.0.0:
   version "18.0.0"
