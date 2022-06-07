@@ -2431,12 +2431,12 @@ jest-haste-map@^28.1.0, jest-haste-map@^28.1.1:
     fsevents "^2.3.2"
 
 jest-leak-detector@^28.1.0:
-  version "28.1.0"
-  resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-28.1.0.tgz#b65167776a8787443214d6f3f54935a4c73c8a45"
-  integrity sha512-uIJDQbxwEL2AMMs2xjhZl2hw8s77c3wrPaQ9v6tXJLGaaQ+4QrNJH5vuw7hA7w/uGT/iJ42a83opAqxGHeyRIA==
+  version "28.1.1"
+  resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-28.1.1.tgz#537f37afd610a4b3f4cab15e06baf60484548efb"
+  integrity sha512-4jvs8V8kLbAaotE+wFR7vfUGf603cwYtFf1/PYEsyX2BAjSzj8hQSVTP6OWzseTl0xL6dyHuKs2JAks7Pfubmw==
   dependencies:
     jest-get-type "^28.0.2"
-    pretty-format "^28.1.0"
+    pretty-format "^28.1.1"
 
 jest-matcher-utils@^27.0.0:
   version "27.5.1"
@@ -2610,19 +2610,7 @@ jest-util@^28.1.0, jest-util@^28.1.1:
     graceful-fs "^4.2.9"
     picomatch "^2.2.3"
 
-jest-validate@^28.1.0:
-  version "28.1.0"
-  resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-28.1.0.tgz#8a6821f48432aba9f830c26e28226ad77b9a0e18"
-  integrity sha512-Lly7CJYih3vQBfjLeANGgBSBJ7pEa18cxpQfQEq2go2xyEzehnHfQTjoUia8xUv4x4J80XKFIDwJJThXtRFQXQ==
-  dependencies:
-    "@jest/types" "^28.1.0"
-    camelcase "^6.2.0"
-    chalk "^4.0.0"
-    jest-get-type "^28.0.2"
-    leven "^3.1.0"
-    pretty-format "^28.1.0"
-
-jest-validate@^28.1.1:
+jest-validate@^28.1.0, jest-validate@^28.1.1:
   version "28.1.1"
   resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-28.1.1.tgz#59b7b339b3c85b5144bd0c06ad3600f503a4acc8"
   integrity sha512-Kpf6gcClqFCIZ4ti5++XemYJWUPCFUW+N2gknn+KgnDf549iLul3cBuKVe1YcWRlaF8tZV8eJCap0eECOEE3Ug==
