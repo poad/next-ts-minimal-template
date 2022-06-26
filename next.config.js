@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
-import withPlugins from 'next-compose-plugins';
+const withPlugins = require('next-compose-plugins');
 
-const config = withPlugins([
+module.exports = withPlugins([
 ],
   {
     webpack5: true,
@@ -14,5 +14,3 @@ const config = withPlugins([
     }
   }
 );
-
-export default config;
