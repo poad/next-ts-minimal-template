@@ -1955,9 +1955,9 @@ get-symbol-description@^1.0.0:
     get-intrinsic "^1.1.1"
 
 get-tsconfig@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.0.6.tgz#31ee086022b1261fccf89cfc7460db0f3c02fa57"
-  integrity sha512-yK9g+lk9PSaYS4RM9jnlmFSyymNDdLaIk42h6uOO6DOvqKEpL4KhUAcI1/7/sWe8+FWZe1/EjFXFfvv6T+cgPA==
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.0.7.tgz#fa6314dfdd43f693605379e9f4717332d5f93e46"
+  integrity sha512-hI0ikvRti9TmxszXtfRaVxSU0yQ2HJK03MU14dG/exX/RrELbMTYJW0xOzGR6c2FsddZ3eZHZxDotEIPOw4D+A==
 
 glob-parent@^5.1.2:
   version "5.1.2"
