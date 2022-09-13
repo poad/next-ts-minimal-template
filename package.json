@@ -42,7 +42,6 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "jest": "*",
-    "next-compose-plugins": "*",
     "next-transpile-modules": "*",
     "prettier": "*",
     "rimraf": "*",
