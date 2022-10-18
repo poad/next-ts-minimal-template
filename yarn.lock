@@ -851,9 +851,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@*":
-  version "18.11.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.1.tgz#8d1ba9149a44379bb467d045157651be07e098d9"
-  integrity sha512-bB9ptqoW+pKBjs0kJX/zUSUWCOWAyYXQsOgY6+HIEbnjYike3CAeDhxlQ4kDjCm/S9SRV66F49HY7gwJz0oWMg==
+  version "18.11.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.2.tgz#c59b7641832531264fda3f1ba610362dc9a7dfc8"
+  integrity sha512-BWN3M23gLO2jVG8g/XHIRFWiiV4/GckeFIqbU/C4V3xpoBBWSMk4OZomouN0wCkfQFPqgZikyLr7DOYDysIkkw==
 
 "@types/prettier@^2.1.5":
   version "2.7.1"
@@ -2610,12 +2610,12 @@ jest-regex-util@^29.2.0:
   integrity sha512-6yXn0kg2JXzH30cr2NlThF+70iuO/3irbaB4mh5WyqNIvLLP+B6sFdluO1/1RJmslyh/f9osnefECflHvTbwVA==
 
 jest-resolve-dependencies@^29.2.0:
-  version "29.2.0"
-  resolved "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-29.2.0.tgz#a127b7d6b7df69d4eaf2c7c99f652f17ba0fed71"
-  integrity sha512-Cd0Z39sDntEnfR9PoUdFHUAGDvtKI0/7Wt73l3lt03A3yQ+A6Qi3XmBuqGjdFl2QbXaPa937oLhilG612P8HGQ==
+  version "29.2.1"
+  resolved "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-29.2.1.tgz#8d717dd41dc615fef1d412d395ea3deccfb1b9fa"
+  integrity sha512-o3mUGX2j08usj1jIAIE8KmUVpqVAn54k80kI27ldbZf2oJn6eghhB6DvJxjrcH40va9CQgWTfU5f2Ag/MoUqgQ==
   dependencies:
     jest-regex-util "^29.2.0"
-    jest-snapshot "^29.2.0"
+    jest-snapshot "^29.2.1"
 
 jest-resolve@^29.2.0:
   version "29.2.0"
@@ -2687,7 +2687,7 @@ jest-runtime@^29.2.0:
     slash "^3.0.0"
     strip-bom "^4.0.0"
 
-jest-snapshot@^29.2.0:
+jest-snapshot@^29.2.0, jest-snapshot@^29.2.1:
   version "29.2.1"
   resolved "https://registry.yarnpkg.com/jest-snapshot/-/jest-snapshot-29.2.1.tgz#f3843b3099c8fec7e6218dea18cc506f10ea5d30"
   integrity sha512-KZdLD7iEz5M4ZYd+ezZ/kk73z+DtNbk/yJ4Qx7408Vb0CCuclJIZPa/HmIwSsCfIlOBNcYTKufr7x/Yv47oYlg==
