@@ -9,9 +9,11 @@
     "export": "next export",
     "start": "next start",
     "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
+    "style-check": "prettier --check src",
+    "format": "prettier --write src",
     "clean": "rimraf build",
     "pretest": "yarn build",
-    "all": "yarn install && yarn lint && yarn test"
+    "all": "yarn install && yarn style-check && yarn lint && yarn test"
   },
   "dependencies": {
     "next": "^12",
