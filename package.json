@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "jest --passWithNoTests",
     "dev": "next",
     "build": "next build",
     "export": "next export",
@@ -13,7 +12,7 @@
     "format": "prettier --write src",
     "clean": "rimraf build",
     "pretest": "yarn build",
-    "all": "yarn install && yarn style-check && yarn lint && yarn test"
+    "all": "yarn install && yarn style-check && yarn lint"
   },
   "dependencies": {
     "next": "^13",
@@ -23,8 +22,6 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13",
-    "@swc/jest": "*",
-    "@types/jest": "*",
     "@types/node": "*",
     "@types/react": "*",
     "@typescript-eslint/eslint-plugin": "*",
@@ -43,18 +40,10 @@
     "eslint-plugin-prettier": "*",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
-    "jest": "*",
     "next-transpile-modules": "*",
     "prettier": "*",
     "rimraf": "*",
     "swc-loader": "*",
     "typescript": "*"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.(t|j)sx?$": [
-        "@swc/jest"
-      ]
-    }
   }
 }
