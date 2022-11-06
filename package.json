@@ -3,16 +3,19 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "test": "echo ''",
     "dev": "next dev --turbo",
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
-    "style-check": "prettier --check src",
-    "format": "prettier --write src",
+    "elint-check": "eslint --ext .ts,.js,.tsx,.jsx src",
+    "elint-fix": "eslint --fix --ext .ts,.js,.tsx,.jsx src",
+    "prettier-check": "prettier --check src",
+    "prettier-format": "prettier --write src",
+    "lint": "yarn prettier-check && yarn elint-check",
+    "lint-fix": "yarn prettier-format && yarn elint-fix",
     "clean": "rimraf build",
-    "pretest": "yarn build",
-    "all": "yarn install && yarn style-check && yarn lint"
+    "all": "yarn lint && yarn build && yarn test && yarn export"
   },
   "dependencies": {
     "next": "^13",
@@ -45,5 +48,6 @@
     "rimraf": "*",
     "swc-loader": "*",
     "typescript": "*"
-  }
+  },
+  "packageManager": "yarn@3.2.4"
 }
