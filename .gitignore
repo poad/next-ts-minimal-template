@@ -130,5 +130,9 @@ yarn-debug.log*
 yarn-error.log*
 .swc
 
-/.yarn/
-!/.yarn/releases/*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
