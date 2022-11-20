@@ -27,6 +27,11 @@ jobs:
         check-latest: true
         cache: yarn
 
+    - name: Use yarn@stable
+      run: |
+        corepack enable && \
+        corepack prepare yarn@stable --activate
+
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
       run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
