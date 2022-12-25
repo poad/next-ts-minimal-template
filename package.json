@@ -43,7 +43,6 @@
     "eslint-plugin-prettier": "*",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
-    "next-transpile-modules": "*",
     "prettier": "*",
     "rimraf": "*",
     "swc-loader": "*",
