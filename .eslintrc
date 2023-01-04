@@ -51,6 +51,7 @@
     "react/prop-types": ["off"],
     "import/extensions": ["off"],
     "jsx-a11y/anchor-is-valid": ["off"],
-    "no-return-assign": ["off"]
+    "no-return-assign": ["off"],
+    "react/react-in-jsx-scope": ["off"]
   }
 }
