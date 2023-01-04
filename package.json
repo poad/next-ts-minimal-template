@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "test": "echo ''",
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "export": "next export",
     "start": "next start",
@@ -19,15 +19,15 @@
   },
   "dependencies": {
     "@next/font": "^13",
+    "@types/node": "*",
+    "@types/react": "*",
     "next": "^13",
     "react": "*",
     "react-dom": "*",
+    "typescript": "*",
     "web-vitals": "*"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13",
-    "@types/node": "*",
-    "@types/react": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
     "eslint": "*",
@@ -45,12 +45,10 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "prettier": "*",
-    "rimraf": "*",
-    "swc-loader": "*",
-    "typescript": "*"
+    "rimraf": "*"
   },
   "resolutions": {
-    "json5": ">=2.2.2"
+    "json5": ">=2.2.3"
   },
   "packageManager": "yarn@3.3.1"
 }
