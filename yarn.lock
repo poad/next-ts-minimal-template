@@ -594,9 +594,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001406":
-  version: 1.0.30001452
-  resolution: "caniuse-lite@npm:1.0.30001452"
-  checksum: de02aad7b71112409f30de53e8080bef0fe612ed95bba8b14fb830f59683e8caabc27bdd520563686965be77f2cb56e239e44b920144630b91d7fe9911ba8ad5
+  version: 1.0.30001454
+  resolution: "caniuse-lite@npm:1.0.30001454"
+  checksum: bdbd4ffe5aae8ad3f63dd3296f2a1bb16d48487892a186bcc6433b404485ebfd0a08e215f04f68cb1a8b30b7ea064919628598d076a56793e27da91a0df27598
   languageName: node
   linkType: hard
 
@@ -1232,11 +1232,11 @@ __metadata:
   linkType: hard
 
 "esquery@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "esquery@npm:1.4.0"
+  version: 1.4.2
+  resolution: "esquery@npm:1.4.2"
   dependencies:
     estraverse: ^5.1.0
-  checksum: a0807e17abd7fbe5fbd4fab673038d6d8a50675cdae6b04fbaa520c34581be0c5fa24582990e8acd8854f671dd291c78bb2efb9e0ed5b62f33bac4f9cf820210
+  checksum: 2f4ad89c5aafaca61cc2c15e256190f0d6deb4791cae6552d3cb4b1eb8867958cdf27a56aaa3272ff17435e3eaa19ee0d4129fac336ca6373d7354d7b5da7966
   languageName: node
   linkType: hard
 
