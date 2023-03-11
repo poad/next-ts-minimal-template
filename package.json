@@ -24,7 +24,6 @@
     "next": "^13",
     "react": "*",
     "react-dom": "*",
-    "typescript": "*",
     "web-vitals": "*"
   },
   "devDependencies": {
@@ -45,7 +44,9 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "prettier": "*",
-    "rimraf": "*"
+    "rimraf": "*",
+    "swc-loader": "*",
+    "typescript": "*"
   },
   "packageManager": "yarn@3.4.1"
 }

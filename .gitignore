@@ -136,3 +136,5 @@ yarn-error.log*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+src/tsconfig.json
+src/next-env.d.ts
