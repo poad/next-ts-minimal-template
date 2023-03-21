@@ -638,9 +638,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001406":
-  version: 1.0.30001468
-  resolution: "caniuse-lite@npm:1.0.30001468"
-  checksum: 39f23ce5af90fee37004bee334cd809a20f8aa46ef08244f75e33d2e32b53cfebee205018769a2712937fa05ea5a1c0249175771ffee561acd1e8e05c54f9a67
+  version: 1.0.30001469
+  resolution: "caniuse-lite@npm:1.0.30001469"
+  checksum: 8e496509d7e9ff189c72205675b5db0c5f1b6a09917027441e835efae0848a468a8c4e7d2b409ffc202438fcd23ae53e017f976a03c22c04d12d3c0e1e33e5de
   languageName: node
   linkType: hard
 
@@ -1510,14 +1510,14 @@ __metadata:
   linkType: hard
 
 "glob@npm:^9.2.0":
-  version: 9.3.0
-  resolution: "glob@npm:9.3.0"
+  version: 9.3.1
+  resolution: "glob@npm:9.3.1"
   dependencies:
     fs.realpath: ^1.0.0
     minimatch: ^7.4.1
     minipass: ^4.2.4
     path-scurry: ^1.6.1
-  checksum: 9beb4f1cdc9585412efd991a9786c1ee6816dfd0537494fd552c333fa3d4b041fce5681bce21d14651e41479f60866e10a35a2ce2571fd40b7cf73842ea12192
+  checksum: 2d25c0f5afda4364ea590feeb763b55deec4fa980054ff8ec68016d41d7fee38074b55ced07ad4786c44f9ef50d0fae1c3f83592c6d6b100270e0c0473a6b9a0
   languageName: node
   linkType: hard
 
@@ -2504,11 +2504,11 @@ __metadata:
   linkType: hard
 
 "prettier@npm:*":
-  version: 2.8.5
-  resolution: "prettier@npm:2.8.5"
+  version: 2.8.6
+  resolution: "prettier@npm:2.8.6"
   bin:
     prettier: bin-prettier.js
-  checksum: b7f8d30e14061e0478bc5a59d4d889688d804c173a0daa91b1b85dc08eef5eb6956d1b59f4037770776fda5b967f6c9ca3b7a8a43c50bedb4c7b182029f865aa
+  checksum: 8ac94fa67aec0e65743ea15ebf954ef2f1e52638abd129dc04e8b49e8bb3224c0233c98df6b5c98efd31bd2a43866590486559438ee4ead09dc81be389068572
   languageName: node
   linkType: hard
 
