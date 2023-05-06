@@ -6,7 +6,7 @@
     "test": "echo ''",
     "dev": "next dev --turbo",
     "build": "next build",
-    "export": "next export",
+    "export": "next build",
     "start": "next start",
     "eslint-check": "next lint --ext .ts,.js,.tsx,.jsx src",
     "eslint-fix": "next lint --fix --ext .ts,.js,.tsx,.jsx src",
@@ -15,7 +15,9 @@
     "lint": "yarn prettier-check && yarn eslint-check",
     "lint-fix": "yarn prettier-format && yarn eslint-fix",
     "clean": "rimraf build",
-    "all": "yarn lint && yarn build && yarn test && yarn export"
+    "prebuild": "yarn lint",
+    "postbuild": "yarn test",
+    "all": "yarn build"
   },
   "dependencies": {
     "@next/font": "^13",
