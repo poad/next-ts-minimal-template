@@ -2688,12 +2688,12 @@ __metadata:
   linkType: hard
 
 "path-scurry@npm:^1.7.0":
-  version: 1.8.0
-  resolution: "path-scurry@npm:1.8.0"
+  version: 1.9.0
+  resolution: "path-scurry@npm:1.9.0"
   dependencies:
     lru-cache: ^9.1.1
     minipass: ^5.0.0
-  checksum: 53974a328e379aa3e22b18bbc97f135522d329597faa924bc99bc95959a21ae07c1aa7747a00c21c3579a5d25af4596ea1ed7f135cafd12ec949e35969a39e3e
+  checksum: d4b23cd4999bac256b28aa6985769835bd35eae0a8172b170eb709d0f2f13f37a5390def204377bb51f7936ff09bc6485bf1f8e03d9ef8d1caf8fea953e95357
   languageName: node
   linkType: hard
 
