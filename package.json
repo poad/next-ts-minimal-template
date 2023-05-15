@@ -20,7 +20,6 @@
     "all": "yarn build"
   },
   "dependencies": {
-    "@next/font": "^13",
     "@types/node": "*",
     "@types/react": "*",
     "next": "^13",
