@@ -17,10 +17,11 @@
   "extends": [
     "airbnb-typescript/base",
     "plugin:react/recommended",
-    "plugin:@next/next/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "next/core-web-vitals",
+    "plugin:storybook/recommended"
   ],
   "plugins": [
     "react"
