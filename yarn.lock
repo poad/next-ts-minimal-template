@@ -1133,13 +1133,13 @@ __metadata:
   linkType: hard
 
 "@babel/plugin-transform-parameters@npm:^7.20.7, @babel/plugin-transform-parameters@npm:^7.21.3":
-  version: 7.21.3
-  resolution: "@babel/plugin-transform-parameters@npm:7.21.3"
+  version: 7.22.3
+  resolution: "@babel/plugin-transform-parameters@npm:7.22.3"
   dependencies:
-    "@babel/helper-plugin-utils": ^7.20.2
+    "@babel/helper-plugin-utils": ^7.21.5
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: c92128d7b1fcf54e2cab186c196bbbf55a9a6de11a83328dc2602649c9dc6d16ef73712beecd776cd49bfdc624b5f56740f4a53568d3deb9505ec666bc869da3
+  checksum: 68a30f630f5d99be7675fab23d009205302f33f1eac015418d5344983fe8f97f4eae0130f6e4f3c21b8dd8971d516346fba90b01ba3c2c15f23b47c6f4b7161a
   languageName: node
   linkType: hard
 
