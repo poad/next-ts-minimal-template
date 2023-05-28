@@ -2340,18 +2340,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^7.0.17":
-  version: 7.0.17
-  resolution: "@storybook/addon-links@npm:7.0.17"
+"@storybook/addon-links@npm:^7.0.18":
+  version: 7.0.18
+  resolution: "@storybook/addon-links@npm:7.0.18"
   dependencies:
-    "@storybook/client-logger": 7.0.17
-    "@storybook/core-events": 7.0.17
+    "@storybook/client-logger": 7.0.18
+    "@storybook/core-events": 7.0.18
     "@storybook/csf": ^0.1.0
     "@storybook/global": ^5.0.0
-    "@storybook/manager-api": 7.0.17
-    "@storybook/preview-api": 7.0.17
-    "@storybook/router": 7.0.17
-    "@storybook/types": 7.0.17
+    "@storybook/manager-api": 7.0.18
+    "@storybook/preview-api": 7.0.18
+    "@storybook/router": 7.0.18
+    "@storybook/types": 7.0.18
     prop-types: ^15.7.2
     ts-dedent: ^2.0.0
   peerDependencies:
@@ -2362,7 +2362,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 6a2d89b350a27563a535e3f35811dbd3d8966b424ebd7ef2344f8cadc954a324fa56d782770e5dbe6dad4c44703d1f32d4d9d40453cae876c686a0b0b98b9a1b
+  checksum: c88637a1bf6ce9a660d271f904fac11556ba81d0c9b52b311d2e4bbbec131c7ccc3f72ae8f3d747d1e5756cdde8c42ac04116815f89dea67517bebb392c9c8cb
   languageName: node
   linkType: hard
 
@@ -9709,7 +9709,7 @@ __metadata:
   dependencies:
     "@storybook/addon-essentials": ^7.0.18
     "@storybook/addon-interactions": ^7.0.17
-    "@storybook/addon-links": ^7.0.17
+    "@storybook/addon-links": ^7.0.18
     "@storybook/blocks": ^7.0.17
     "@storybook/nextjs": ^7.0.17
     "@storybook/react": ^7.0.17
