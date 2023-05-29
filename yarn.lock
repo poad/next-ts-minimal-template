@@ -2426,20 +2426,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-interactions@npm:^7.0.17":
-  version: 7.0.17
-  resolution: "@storybook/addon-interactions@npm:7.0.17"
+"@storybook/addon-interactions@npm:^7.0.18":
+  version: 7.0.18
+  resolution: "@storybook/addon-interactions@npm:7.0.18"
   dependencies:
-    "@storybook/client-logger": 7.0.17
-    "@storybook/components": 7.0.17
-    "@storybook/core-common": 7.0.17
-    "@storybook/core-events": 7.0.17
+    "@storybook/client-logger": 7.0.18
+    "@storybook/components": 7.0.18
+    "@storybook/core-common": 7.0.18
+    "@storybook/core-events": 7.0.18
     "@storybook/global": ^5.0.0
-    "@storybook/instrumenter": 7.0.17
-    "@storybook/manager-api": 7.0.17
-    "@storybook/preview-api": 7.0.17
-    "@storybook/theming": 7.0.17
-    "@storybook/types": 7.0.17
+    "@storybook/instrumenter": 7.0.18
+    "@storybook/manager-api": 7.0.18
+    "@storybook/preview-api": 7.0.18
+    "@storybook/theming": 7.0.18
+    "@storybook/types": 7.0.18
     jest-mock: ^27.0.6
     polished: ^4.2.2
     ts-dedent: ^2.2.0
@@ -2451,7 +2451,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 9e0e852353652c8371279d1f64c37d9595d8136b0f9401a13469c64fa1a011e33d3af4c4053c05a1559c1ec60c4e5cc1b954c0b304050346d6749a466e8844fd
+  checksum: 8208d22bc424ac64b85fcebbd75b5ef2cc74b2ad9fdc931dc51bee977383f6216b80ae8129ae3063df2f1ceb3aab679a3c92622d3de09d59fbad70fffd313156
   languageName: node
   linkType: hard
 
@@ -3191,7 +3191,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/instrumenter@npm:7.0.17, @storybook/instrumenter@npm:^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0":
+"@storybook/instrumenter@npm:7.0.18":
+  version: 7.0.18
+  resolution: "@storybook/instrumenter@npm:7.0.18"
+  dependencies:
+    "@storybook/channels": 7.0.18
+    "@storybook/client-logger": 7.0.18
+    "@storybook/core-events": 7.0.18
+    "@storybook/global": ^5.0.0
+    "@storybook/preview-api": 7.0.18
+  checksum: 9803e2d6944ef6e18ee410ca03189a46cdd33f82a7deec2a6e226926cd98e551392bc27a9af42857e41ca2ba29285f694c1683d0a28504fcf06fda17b58cff4f
+  languageName: node
+  linkType: hard
+
+"@storybook/instrumenter@npm:^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0":
   version: 7.0.17
   resolution: "@storybook/instrumenter@npm:7.0.17"
   dependencies:
@@ -9859,7 +9872,7 @@ __metadata:
   resolution: "next-ts-minimal-template@workspace:."
   dependencies:
     "@storybook/addon-essentials": ^7.0.18
-    "@storybook/addon-interactions": ^7.0.17
+    "@storybook/addon-interactions": ^7.0.18
     "@storybook/addon-links": ^7.0.18
     "@storybook/blocks": ^7.0.17
     "@storybook/nextjs": ^7.0.17
