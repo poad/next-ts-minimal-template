@@ -6426,9 +6426,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.411":
-  version: 1.4.421
-  resolution: "electron-to-chromium@npm:1.4.421"
-  checksum: 91baf5e7de012bdd61ca85623cd95da8441d1b8e8268f3999a4cd110b9451be1be2975eb1268ee34a99c2703a07e4b0dc7e940b96b39800c65c3840a9a8ec62f
+  version: 1.4.422
+  resolution: "electron-to-chromium@npm:1.4.422"
+  checksum: c88cb8f39f8bc0352eca99dd355c1db84299ed6ea02448c157c9acb9cbbc2d7f2089a989ebebc4b886543e4683ffae50a5c305d4fe6b20f9fce7162abb7bf6f1
   languageName: node
   linkType: hard
 
@@ -7915,8 +7915,8 @@ __metadata:
   linkType: hard
 
 "glob@npm:^10.2.5":
-  version: 10.2.6
-  resolution: "glob@npm:10.2.6"
+  version: 10.2.7
+  resolution: "glob@npm:10.2.7"
   dependencies:
     foreground-child: ^3.1.0
     jackspeak: ^2.0.3
@@ -7925,7 +7925,7 @@ __metadata:
     path-scurry: ^1.7.0
   bin:
     glob: dist/cjs/src/bin.js
-  checksum: 94c5964bfa9df95207a69a3bd9b07b99ea7b5ba1f36dd73a8914378cee9436a205b9b5bdff58872abc238684ea7f4b4936e932155b8885250818bcc8d5321ddf
+  checksum: 555205a74607d6f8d9874ba888924b305b5ea1abfaa2e9ccb11ac713d040aac7edbf7d8702a2f4a1cd81b2d7666412170ce7ef061d33cddde189dae8c1a1a054
   languageName: node
   linkType: hard
 
@@ -8190,9 +8190,9 @@ __metadata:
   linkType: hard
 
 "html-entities@npm:^2.1.0":
-  version: 2.3.4
-  resolution: "html-entities@npm:2.3.4"
-  checksum: f252ab032485cda049a399554aa36c7b0c95e700f0104fa53fda9b90b0c215ea71a1d0852cdfdfe3a9423630de3d7a69255a1ad84ac36b0fee4ceab775d53171
+  version: 2.3.5
+  resolution: "html-entities@npm:2.3.5"
+  checksum: 585f8a4d549b126b147c95398849a343df4cec379ad0ab87c6be1539870751cb85d3d4910c2cb4a848cc99de84307cd9a372890175b73852d5225e716e65e62f
   languageName: node
   linkType: hard
 
