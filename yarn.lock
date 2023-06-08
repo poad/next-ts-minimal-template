@@ -386,11 +386,11 @@ __metadata:
   linkType: hard
 
 "@babel/helper-simple-access@npm:^7.21.5":
-  version: 7.21.5
-  resolution: "@babel/helper-simple-access@npm:7.21.5"
+  version: 7.22.5
+  resolution: "@babel/helper-simple-access@npm:7.22.5"
   dependencies:
-    "@babel/types": ^7.21.5
-  checksum: ad212beaa24be3864c8c95bee02f840222457ccf5419991e2d3e3e39b0f75b77e7e857e0bf4ed428b1cd97acefc87f3831bdb0b9696d5ad0557421f398334fc3
+    "@babel/types": ^7.22.5
+  checksum: fe9686714caf7d70aedb46c3cce090f8b915b206e09225f1e4dbc416786c2fdbbee40b38b23c268b7ccef749dd2db35f255338fb4f2444429874d900dede5ad2
   languageName: node
   linkType: hard
 
