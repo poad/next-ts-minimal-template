@@ -142,6 +142,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helper-annotate-as-pure@npm:^7.22.5":
+  version: 7.22.5
+  resolution: "@babel/helper-annotate-as-pure@npm:7.22.5"
+  dependencies:
+    "@babel/types": ^7.22.5
+  checksum: 53da330f1835c46f26b7bf4da31f7a496dee9fd8696cca12366b94ba19d97421ce519a74a837f687749318f94d1a37f8d1abcbf35e8ed22c32d16373b2f6198d
+  languageName: node
+  linkType: hard
+
 "@babel/helper-builder-binary-assignment-operator-visitor@npm:^7.18.6":
   version: 7.22.3
   resolution: "@babel/helper-builder-binary-assignment-operator-visitor@npm:7.22.3"
@@ -186,15 +195,15 @@ __metadata:
   linkType: hard
 
 "@babel/helper-create-regexp-features-plugin@npm:^7.18.6, @babel/helper-create-regexp-features-plugin@npm:^7.22.1":
-  version: 7.22.1
-  resolution: "@babel/helper-create-regexp-features-plugin@npm:7.22.1"
+  version: 7.22.5
+  resolution: "@babel/helper-create-regexp-features-plugin@npm:7.22.5"
   dependencies:
-    "@babel/helper-annotate-as-pure": ^7.18.6
+    "@babel/helper-annotate-as-pure": ^7.22.5
     regexpu-core: ^5.3.1
     semver: ^6.3.0
   peerDependencies:
     "@babel/core": ^7.0.0
-  checksum: 52d875762110d5dac41ce21fa30a2aaa47c119ca58add190a5123b7a843da096854c0b6358c327b8e0dc2f2219a47eace69332d8a26f165f529ec402a4e6f974
+  checksum: 94932145beeb1f91856be25fea8de30b4b81b63fbc7c5a207ed97a5ddc34cd1e9b04041ed28bd24ec09cdcfbb62e8d66f820e4fe864672afe0aa2f357c784e11
   languageName: node
   linkType: hard
 
