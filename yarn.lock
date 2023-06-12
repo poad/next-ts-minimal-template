@@ -1627,13 +1627,13 @@ __metadata:
   linkType: hard
 
 "@babel/plugin-transform-unicode-escapes@npm:^7.21.5":
-  version: 7.21.5
-  resolution: "@babel/plugin-transform-unicode-escapes@npm:7.21.5"
+  version: 7.22.5
+  resolution: "@babel/plugin-transform-unicode-escapes@npm:7.22.5"
   dependencies:
-    "@babel/helper-plugin-utils": ^7.21.5
+    "@babel/helper-plugin-utils": ^7.22.5
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 6504d642d0449a275191b624bd94d3e434ae154e610bf2f0e3c109068b287d2474f68e1da64b47f21d193cd67b27ee4643877d530187670565cac46e29fd257d
+  checksum: da5e85ab3bb33a75cbf6181bfd236b208dc934702fd304db127232f17b4e0f42c6d3f238de8589470b4190906967eea8ca27adf3ae9d8ee4de2a2eae906ed186
   languageName: node
   linkType: hard
 
