@@ -1218,13 +1218,13 @@ __metadata:
   linkType: hard
 
 "@babel/plugin-transform-for-of@npm:^7.21.5":
-  version: 7.21.5
-  resolution: "@babel/plugin-transform-for-of@npm:7.21.5"
+  version: 7.22.5
+  resolution: "@babel/plugin-transform-for-of@npm:7.22.5"
   dependencies:
-    "@babel/helper-plugin-utils": ^7.21.5
+    "@babel/helper-plugin-utils": ^7.22.5
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: b6666b24e8ca1ffbf7452a0042149724e295965aad55070dc9ee992451d69d855fc9db832c1c5fb4d3dc532f4a18a2974d5f8524f5c2250dda888d05f6f3cadb
+  checksum: d7b8d4db010bce7273674caa95c4e6abd909362866ce297e86a2ecaa9ae636e05d525415811db9b3c942155df7f3651d19b91dd6c41f142f7308a97c7cb06023
   languageName: node
   linkType: hard
 
