@@ -890,13 +890,13 @@ __metadata:
   linkType: hard
 
 "@babel/plugin-syntax-import-attributes@npm:^7.22.3":
-  version: 7.22.3
-  resolution: "@babel/plugin-syntax-import-attributes@npm:7.22.3"
+  version: 7.22.5
+  resolution: "@babel/plugin-syntax-import-attributes@npm:7.22.5"
   dependencies:
-    "@babel/helper-plugin-utils": ^7.21.5
+    "@babel/helper-plugin-utils": ^7.22.5
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 48cf66ba1b6772134f4e638c42ff51a0e8037cea540733642146e031641641e8a03e4f43e6be613e2313d174f95d9b3a1f14f41db0a9fa78a8330282b5aad03c
+  checksum: 197b3c5ea2a9649347f033342cb222ab47f4645633695205c0250c6bf2af29e643753b8bb24a2db39948bef08e7c540babfd365591eb57fc110cb30b425ffc47
   languageName: node
   linkType: hard
 
