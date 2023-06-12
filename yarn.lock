@@ -1597,13 +1597,13 @@ __metadata:
   linkType: hard
 
 "@babel/plugin-transform-sticky-regex@npm:^7.18.6":
-  version: 7.18.6
-  resolution: "@babel/plugin-transform-sticky-regex@npm:7.18.6"
+  version: 7.22.5
+  resolution: "@babel/plugin-transform-sticky-regex@npm:7.22.5"
   dependencies:
-    "@babel/helper-plugin-utils": ^7.18.6
+    "@babel/helper-plugin-utils": ^7.22.5
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 68ea18884ae9723443ffa975eb736c8c0d751265859cd3955691253f7fee37d7a0f7efea96c8a062876af49a257a18ea0ed5fea0d95a7b3611ce40f7ee23aee3
+  checksum: 63b2c575e3e7f96c32d52ed45ee098fb7d354b35c2223b8c8e76840b32cc529ee0c0ceb5742fd082e56e91e3d82842a367ce177e82b05039af3d602c9627a729
   languageName: node
   linkType: hard
 
