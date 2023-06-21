@@ -3576,7 +3576,7 @@ packages:
       util-deprecate: 1.0.2
       webpack: 5.88.0(@swc/core@1.3.66)(esbuild@0.17.19)
       webpack-dev-middleware: 5.3.3(webpack@5.88.0)
-      webpack-hot-middleware: 2.25.3
+      webpack-hot-middleware: 2.25.4
       webpack-virtual-modules: 0.4.6
     transitivePeerDependencies:
       - '@swc/core'
@@ -11116,8 +11116,8 @@ packages:
       webpack: 5.88.0(@swc/core@1.3.66)(esbuild@0.17.19)
     dev: true
 
-  /webpack-hot-middleware@2.25.3:
-    resolution: {integrity: sha512-IK/0WAHs7MTu1tzLTjio73LjS3Ov+VvBKQmE8WPlJutgG5zT6Urgq/BbAdRrHTRpyzK0dvAvFh1Qg98akxgZpA==}
+  /webpack-hot-middleware@2.25.4:
+    resolution: {integrity: sha512-IRmTspuHM06aZh98OhBJtqLpeWFM8FXJS5UYpKYxCJzyFoyWj1w6VGFfomZU7OPA55dMLrQK0pRT1eQ3PACr4w==}
     dependencies:
       ansi-html-community: 0.0.8
       html-entities: 2.3.6
