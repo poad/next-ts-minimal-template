@@ -3118,7 +3118,7 @@ packages:
       core-js-pure: 3.31.0
       error-stack-parser: 2.1.4
       find-up: 5.0.0
-      html-entities: 2.3.6
+      html-entities: 2.4.0
       loader-utils: 2.0.4
       react-refresh: 0.11.0
       schema-utils: 3.3.0
@@ -7719,8 +7719,8 @@ packages:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==}
     dev: true
 
-  /html-entities@2.3.6:
-    resolution: {integrity: sha512-9o0+dcpIw2/HxkNuYKxSJUF/MMRZQECK4GnF+oQOmJ83yCVHTWgCH5aOXxK5bozNRmM8wtgryjHD3uloPBDEGw==}
+  /html-entities@2.4.0:
+    resolution: {integrity: sha512-igBTJcNNNhvZFRtm8uA6xMY6xYleeDwn3PeBCkDz7tHttv4F2hsDI2aPgNERWzvRcNYHNT3ymRaQzllmXj4YsQ==}
     dev: true
 
   /html-escaper@2.0.2:
@@ -11125,7 +11125,7 @@ packages:
     resolution: {integrity: sha512-IRmTspuHM06aZh98OhBJtqLpeWFM8FXJS5UYpKYxCJzyFoyWj1w6VGFfomZU7OPA55dMLrQK0pRT1eQ3PACr4w==}
     dependencies:
       ansi-html-community: 0.0.8
-      html-entities: 2.3.6
+      html-entities: 2.4.0
       strip-ansi: 6.0.1
     dev: true
 
