@@ -2876,7 +2876,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@babel/core': 7.22.6
-      '@jest/types': 29.6.0
+      '@jest/types': 29.6.1
       '@jridgewell/trace-mapping': 0.3.18
       babel-plugin-istanbul: 6.1.1
       chalk: 4.1.2
@@ -2885,7 +2885,7 @@ packages:
       graceful-fs: 4.2.11
       jest-haste-map: 29.6.0
       jest-regex-util: 29.4.3
-      jest-util: 29.6.0
+      jest-util: 29.6.1
       micromatch: 4.0.5
       pirates: 4.0.6
       slash: 3.0.0
@@ -2905,8 +2905,8 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@jest/types@29.6.0:
-    resolution: {integrity: sha512-8XCgL9JhqbJTFnMRjEAO+TuW251+MoMd5BSzLiE3vvzpQ8RlBxy8NoyNkDhs3K3OL3HeVinlOl9or5p7GTeOLg==}
+  /@jest/types@29.6.1:
+    resolution: {integrity: sha512-tPKQNMPuXgvdOn2/Lg9HNfUvjYVGolt04Hp03f5hAk878uwOLikN+JzeLY0HcVgKgFl9Hs3EIqpu3WX27XNhnw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/schemas': 29.6.0
@@ -8246,14 +8246,14 @@ packages:
     resolution: {integrity: sha512-dY1DKufptj7hcJSuhpqlYPGcnN3XjlOy/g0jinpRTMsbb40ivZHiuIPzeminOZkrek8C+oDxC54ILGO3vMLojg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@jest/types': 29.6.0
+      '@jest/types': 29.6.1
       '@types/graceful-fs': 4.1.6
       '@types/node': 20.4.0
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
       jest-regex-util: 29.4.3
-      jest-util: 29.6.0
+      jest-util: 29.6.1
       jest-worker: 29.6.0
       micromatch: 4.0.5
       walker: 1.0.8
@@ -8274,11 +8274,11 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dev: true
 
-  /jest-util@29.6.0:
-    resolution: {integrity: sha512-S0USx9YwcvEm4pQ5suisVm/RVxBmi0GFR7ocJhIeaCuW5AXnAnffXbaVKvIFodyZNOc9ygzVtTxmBf40HsHXaA==}
+  /jest-util@29.6.1:
+    resolution: {integrity: sha512-NRFCcjc+/uO3ijUVyNOQJluf8PtGCe/W6cix36+M3cTFgiYqFOOW5MgN4JOOcvbUhcKTYVd1CvHz/LWi8d16Mg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@jest/types': 29.6.0
+      '@jest/types': 29.6.1
       '@types/node': 20.4.0
       chalk: 4.1.2
       ci-info: 3.8.0
@@ -8300,7 +8300,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@types/node': 20.4.0
-      jest-util: 29.6.0
+      jest-util: 29.6.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
