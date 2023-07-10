@@ -19,7 +19,6 @@
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "plugin:prettier/recommended",
     "next/core-web-vitals",
     "plugin:storybook/recommended"
   ],
