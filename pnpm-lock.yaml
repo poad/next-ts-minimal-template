@@ -6426,8 +6426,8 @@ packages:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
-  /flow-parser@0.213.0:
-    resolution: {integrity: sha512-jPTKNk0lC/iVbaPzfSReo/I67x+PLYiXkFuxHyFYmlJReP3RAoGbmRSC6g8MCEtzw8Uv3clKFmOlEL/LEcoWlw==}
+  /flow-parser@0.213.1:
+    resolution: {integrity: sha512-l+vyZO6hrWG60DredryA8mq62fK9vxL6/RR13HA/aVLBNh9No/wEJsKI+CJqPRkF4CIRUfcJQBeaMXSKcncxUQ==}
     engines: {node: '>=0.4.0'}
     dev: true
 
@@ -7438,7 +7438,7 @@ packages:
       '@babel/register': 7.22.5(@babel/core@7.22.9)
       babel-core: 7.0.0-bridge.0(@babel/core@7.22.9)
       chalk: 4.1.2
-      flow-parser: 0.213.0
+      flow-parser: 0.213.1
       graceful-fs: 4.2.11
       micromatch: 4.0.5
       neo-async: 2.6.2
