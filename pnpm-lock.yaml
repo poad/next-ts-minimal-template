@@ -159,7 +159,7 @@ packages:
     dependencies:
       '@ampproject/remapping': 2.2.1
       '@babel/code-frame': 7.22.5
-      '@babel/generator': 7.22.9
+      '@babel/generator': 7.22.10
       '@babel/helper-compilation-targets': 7.22.9(@babel/core@7.22.9)
       '@babel/helper-module-transforms': 7.22.9(@babel/core@7.22.9)
       '@babel/helpers': 7.22.6
@@ -175,11 +175,11 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@babel/generator@7.22.9:
-    resolution: {integrity: sha512-KtLMbmicyuK2Ak/FTCJVbDnkN1SlT8/kceFTiuDiiRUUSMnHMidxSCdG4ndkTOHHpoomWe/4xkvHkEOncwjYIw==}
+  /@babel/generator@7.22.10:
+    resolution: {integrity: sha512-79KIf7YiWjjdZ81JnLujDRApWtl7BxTqWD88+FFdQEIOG8LJ0etDOM7CXuIgGJa55sGOwZVwuEsaLEm0PJ5/+A==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.5
+      '@babel/types': 7.22.10
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.18
       jsesc: 2.5.2
@@ -1521,7 +1521,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.22.5
-      '@babel/generator': 7.22.9
+      '@babel/generator': 7.22.10
       '@babel/helper-environment-visitor': 7.22.5
       '@babel/helper-function-name': 7.22.5
       '@babel/helper-hoist-variables': 7.22.5
@@ -1532,6 +1532,14 @@ packages:
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
+
+  /@babel/types@7.22.10:
+    resolution: {integrity: sha512-obaoigiLrlDZ7TUQln/8m4mSqIW2QFeOrCQc9r+xsaHGNoplVNYlRVpsfE8Vj35GEm2ZH4ZhrNYogs/3fj85kg==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-string-parser': 7.22.5
+      '@babel/helper-validator-identifier': 7.22.5
+      to-fast-properties: 2.0.0
 
   /@babel/types@7.22.5:
     resolution: {integrity: sha512-zo3MIHGOkPOfoRXitsgHLjEXmlDaD/5KU1Uzuc9GNiZPhSqVxVRtxuPaSBZDsYZ9qV88AjtMtWW7ww98loJ9KA==}
@@ -3313,7 +3321,7 @@ packages:
   /@storybook/csf-tools@7.2.1:
     resolution: {integrity: sha512-QqZOBd6lmhPoIBLutyYYJ3wBwEZF+fUjiL8vhw3lgq+Mrer14lmKrImKDSjd1PsqVbbGQEJZ4TAJHZc3vdQs0w==}
     dependencies:
-      '@babel/generator': 7.22.9
+      '@babel/generator': 7.22.10
       '@babel/parser': 7.22.7
       '@babel/traverse': 7.22.8
       '@babel/types': 7.22.5
@@ -9266,7 +9274,7 @@ packages:
     hasBin: true
     dependencies:
       '@babel/core': 7.22.9
-      '@babel/generator': 7.22.9
+      '@babel/generator': 7.22.10
       '@babel/runtime': 7.22.6
       ast-types: 0.14.2
       commander: 2.20.3
