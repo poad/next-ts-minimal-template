@@ -33,7 +33,7 @@
     "@storybook/addon-essentials": "^7.2.3",
     "@storybook/addon-interactions": "^7.2.3",
     "@storybook/addon-links": "^7.2.3",
-    "@storybook/blocks": "^7.2.3",
+    "@storybook/blocks": "^7.3.0",
     "@storybook/nextjs": "^7.2.3",
     "@storybook/react": "^7.2.3",
     "@storybook/testing-library": "^0.2.0",
