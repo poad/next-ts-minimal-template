@@ -29,7 +29,7 @@
     "web-vitals": "^3.4.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.4.16",
+    "@next/bundle-analyzer": "^13.4.17",
     "@storybook/addon-essentials": "^7.3.1",
     "@storybook/addon-interactions": "^7.3.1",
     "@storybook/addon-links": "^7.3.1",
