@@ -20,3 +20,7 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      nextjs:
+        patterns:
+          - '*'

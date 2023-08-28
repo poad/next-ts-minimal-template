@@ -7,7 +7,7 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "export": "next build",
-    "start": "next start",
+    "start": "pnpm dlx serve@latest out",
     "eslint-check": "next lint --ext .ts,.js,.tsx,.jsx src",
     "eslint-fix": "next lint --fix --ext .ts,.js,.tsx,.jsx src",
     "prettier-check": "prettier --check src",
@@ -37,13 +37,13 @@
     "@storybook/nextjs": "^7.3.2",
     "@storybook/react": "^7.3.2",
     "@storybook/testing-library": "^0.2.0",
-    "@types/node": "^20.5.1",
-    "@types/react": "^18.2.20",
+    "@types/node": "^20.5.7",
+    "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
-    "@typescript-eslint/parser": "^6.4.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
     "cross-env": "^7.0.3",
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-import": "^0.13.0",
@@ -62,12 +62,12 @@
     "rimraf": "^5.0.1",
     "storybook": "^7.3.2",
     "swc-loader": "^0.2.3",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
-  "packageManager": "pnpm@8.6.11",
+  "packageManager": "pnpm@8.7.0",
   "engines": {
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
-    "pnpm": ">=8.6.11"
+    "pnpm": ">=8.7.0"
   }
 }
