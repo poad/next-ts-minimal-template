@@ -61,7 +61,6 @@
     "prettier": "^3.0.3",
     "rimraf": "^5.0.5",
     "storybook": "^7.4.6",
-    "swc-loader": "^0.2.3",
     "typescript": "^5.2.2"
   },
   "engines": {
