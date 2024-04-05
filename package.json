@@ -61,7 +61,7 @@
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
     "storybook": "^7.6.17",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   },
   "engines": {
     "npm": "use pnpm please!",
