@@ -1,29 +1,25 @@
-name: dependabot-auto-merge
+name: pill-request-auto-merge
 
 on:
-  pull_request_target:
+  pull_request:
+
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: write
+  checks: write
 
 jobs:
-  auto-merge:
+  pull-request-auto-merge:
     runs-on: ubuntu-latest
-
     if: github.actor == 'dependabot[bot]'
-
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ahmadnassri/action-dependabot-auto-merge@v2
-        with:
-          github-token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
-          config: .github/dependabot-auto-merge.yml
-
-      - name: Slack Notification (not success)
-        uses: lazy-actions/slatify@master
-        if: ${{ ! success() }}
-        continue-on-error: true
-        with:
-          job_name: '*auto-merge*'
-          type: ${{ job.status }}
-          icon_emoji: ":octocat:"
-          url: ${{ secrets.SLACK_WEBHOOK }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Enable auto-merge for Pull Request
+        run: |
+          gh pr review --approve "$PR_URL"
+          gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
