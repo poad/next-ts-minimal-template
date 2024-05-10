@@ -20,21 +20,18 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - uses: pnpm/action-setup@v4
-      name: Install pnpm
-      id: pnpm-install
-      with:
-        version: latest
-        run_install: |
-          - recursive: false
-            args: [--no-frozen-lockfile]
-
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         check-latest: true
-        cache: pnpm
+
+    - uses: pnpm/action-setup@v4
+      name: Install pnpm
+      with:
+        run_install: |
+          - recursive: false
+            args: [--no-frozen-lockfile]
 
     - run: pnpm all
 
