@@ -38,7 +38,7 @@
     "@storybook/react": "^7.6.19",
     "@storybook/testing-library": "^0.2.2",
     "@types/node": "^20.12.11",
-    "@types/react": "^18.3.1",
+    "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.8.0",
     "@typescript-eslint/parser": "^7.8.0",
@@ -57,7 +57,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-storybook": "^0.8.0",
     "prettier": "^3.2.5",
-    "rimraf": "^5.0.5",
+    "rimraf": "^5.0.7",
     "storybook": "^7.6.19",
     "typescript": "^5.4.5"
   },
@@ -66,5 +66,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@9.1.0+sha512.67f5879916a9293e5cf059c23853d571beaf4f753c707f40cb22bed5fb1578c6aad3b6c4107ccb3ba0b35be003eb621a16471ac836c87beb53f9d54bb4612724"
+  "packageManager": "pnpm@9.1.1+sha512.14e915759c11f77eac07faba4d019c193ec8637229e62ec99eefb7cf3c3b75c64447882b7c485142451ee3a6b408059cdfb7b7fa0341b975f12d0f7629c71195"
 }
