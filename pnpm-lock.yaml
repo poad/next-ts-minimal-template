@@ -3368,8 +3368,8 @@ packages:
   flatted@3.3.1:
     resolution: {integrity: sha512-X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw==}
 
-  flow-parser@0.237.1:
-    resolution: {integrity: sha512-PUeG8GQLmrv49vEcFcag7mriJvVs7Yyegnv1DGskvcokhP8UyqWsLV0KoTQ1iAW3ePVUIGUc3MFfBaXwz9MmIg==}
+  flow-parser@0.237.2:
+    resolution: {integrity: sha512-mvI/kdfr3l1waaPbThPA8dJa77nHXrfZIun+SWvFwSwDjmeByU7mGJGRmv1+7guU6ccyLV8e1lqZA1lD4iMGnQ==}
     engines: {node: '>=0.4.0'}
 
   for-each@0.3.3:
@@ -10081,7 +10081,7 @@ snapshots:
 
   flatted@3.3.1: {}
 
-  flow-parser@0.237.1: {}
+  flow-parser@0.237.2: {}
 
   for-each@0.3.3:
     dependencies:
@@ -10700,7 +10700,7 @@ snapshots:
       '@babel/register': 7.24.6(@babel/core@7.24.6)
       babel-core: 7.0.0-bridge.0(@babel/core@7.24.6)
       chalk: 4.1.2
-      flow-parser: 0.237.1
+      flow-parser: 0.237.2
       graceful-fs: 4.2.11
       micromatch: 4.0.7
       neo-async: 2.6.2
