@@ -23,29 +23,27 @@
     "all": "pnpm build"
   },
   "dependencies": {
-    "next": "^14.2.6",
+    "next": "^14.2.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^14.2.6",
+    "@next/bundle-analyzer": "^14.2.7",
     "@storybook/addon-essentials": "^7.6.20",
     "@storybook/addon-interactions": "^7.6.20",
     "@storybook/addon-links": "^7.6.20",
     "@storybook/blocks": "^7.6.20",
     "@storybook/nextjs": "^7.6.20",
     "@storybook/react": "^7.6.20",
-    "@storybook/testing-library": "^0.2.2",
+    "@storybook/test": "^8.2.9",
     "@types/node": "^20.16.1",
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
-    "@typescript-eslint/parser": "^7.18.0",
     "cross-env": "^7.0.3",
     "eslint": "^9.9.1",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^14.2.6",
+    "eslint-config-next": "^14.2.7",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-flowtype": "^8.0.3",
@@ -59,7 +57,8 @@
     "prettier": "^3.3.3",
     "rimraf": "^5.0.10",
     "storybook": "^7.6.20",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.3.0"
   },
   "engines": {
     "npm": "use pnpm please!",
