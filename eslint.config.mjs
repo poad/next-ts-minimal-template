@@ -4,7 +4,6 @@ import eslint from '@eslint/js';
 import nextPlugin from '@next/eslint-plugin-next';
 import reactPlugin from 'eslint-plugin-react';
 import hooksPlugin from 'eslint-plugin-react-hooks';
-// @ts-expect-error ignore types
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
@@ -26,6 +25,7 @@ export default tseslint.config(
       'react-hooks': hooksPlugin,
       '@next/next': nextPlugin,
     },
+    // @ts-expect-error ignore types
     rules: {
       ...reactPlugin.configs['jsx-runtime'].rules,
       ...hooksPlugin.configs.recommended.rules,
