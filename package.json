@@ -19,13 +19,13 @@
     "all": "pnpm build"
   },
   "dependencies": {
-    "next": "^14.2.7",
+    "next": "^14.2.8",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^14.2.7",
+    "@next/bundle-analyzer": "^14.2.8",
     "@storybook/addon-essentials": "^8.2.9",
     "@storybook/addon-interactions": "^8.2.9",
     "@storybook/addon-links": "^8.2.9",
@@ -38,13 +38,13 @@
     "@stylistic/eslint-plugin-jsx": "^2.7.2",
     "@stylistic/eslint-plugin-plus": "^2.7.2",
     "@stylistic/eslint-plugin-ts": "^2.7.2",
-    "@types/node": "^22.5.3",
+    "@types/node": "^22.5.4",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "cross-env": "^7.0.3",
     "eslint": "^9.9.1",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^14.2.7",
+    "eslint-config-next": "^14.2.8",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.30.0",
