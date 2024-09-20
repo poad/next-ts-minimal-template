@@ -19,32 +19,32 @@
     "all": "pnpm build"
   },
   "dependencies": {
-    "next": "^14.2.11",
+    "next": "^14.2.13",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^14.2.11",
-    "@storybook/addon-essentials": "^8.3.1",
-    "@storybook/addon-interactions": "^8.3.1",
-    "@storybook/addon-links": "^8.3.1",
-    "@storybook/blocks": "^8.3.1",
-    "@storybook/nextjs": "^8.3.1",
-    "@storybook/react": "^8.3.1",
-    "@storybook/test": "^8.3.1",
+    "@next/bundle-analyzer": "^14.2.13",
+    "@storybook/addon-essentials": "^8.3.2",
+    "@storybook/addon-interactions": "^8.3.2",
+    "@storybook/addon-links": "^8.3.2",
+    "@storybook/blocks": "^8.3.2",
+    "@storybook/nextjs": "^8.3.2",
+    "@storybook/react": "^8.3.2",
+    "@storybook/test": "^8.3.2",
     "@stylistic/eslint-plugin": "^2.8.0",
     "@stylistic/eslint-plugin-js": "^2.8.0",
     "@stylistic/eslint-plugin-jsx": "^2.8.0",
     "@stylistic/eslint-plugin-plus": "^2.8.0",
     "@stylistic/eslint-plugin-ts": "^2.8.0",
     "@types/node": "^22.5.5",
-    "@types/react": "^18.3.6",
+    "@types/react": "^18.3.8",
     "@types/react-dom": "^18.3.0",
     "cross-env": "^7.0.3",
     "eslint": "^9.10.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^14.2.11",
+    "eslint-config-next": "^14.2.13",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.30.0",
@@ -54,7 +54,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-storybook": "^0.8.0",
     "rimraf": "^5.0.10",
-    "storybook": "^8.3.1",
+    "storybook": "^8.3.2",
     "typescript": "^5.6.2",
     "typescript-eslint": "^8.6.0"
   },
@@ -63,5 +63,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
+  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
 }
