@@ -19,20 +19,20 @@
     "all": "pnpm build"
   },
   "dependencies": {
-    "next": "^14.2.17",
+    "next": "^14.2.18",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^14.2.17",
-    "@storybook/addon-essentials": "^8.4.2",
-    "@storybook/addon-interactions": "^8.4.2",
-    "@storybook/addon-links": "^8.4.2",
-    "@storybook/blocks": "^8.4.2",
-    "@storybook/nextjs": "^8.4.2",
-    "@storybook/react": "^8.4.2",
-    "@storybook/test": "^8.4.2",
+    "@next/bundle-analyzer": "^14.2.18",
+    "@storybook/addon-essentials": "^8.4.3",
+    "@storybook/addon-interactions": "^8.4.3",
+    "@storybook/addon-links": "^8.4.3",
+    "@storybook/blocks": "^8.4.3",
+    "@storybook/nextjs": "^8.4.3",
+    "@storybook/react": "^8.4.3",
+    "@storybook/test": "^8.4.3",
     "@stylistic/eslint-plugin": "^2.10.1",
     "@stylistic/eslint-plugin-js": "^2.10.1",
     "@stylistic/eslint-plugin-jsx": "^2.10.1",
@@ -44,7 +44,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^9.14.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^14.2.17",
+    "eslint-config-next": "^14.2.18",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
@@ -54,7 +54,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-storybook": "^0.8.0",
     "rimraf": "^5.0.10",
-    "storybook": "^8.4.2",
+    "storybook": "^8.4.3",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.14.0"
   },
@@ -63,5 +63,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+  "packageManager": "pnpm@9.13.0+sha512.beb9e2a803db336c10c9af682b58ad7181ca0fbd0d4119f2b33d5f2582e96d6c0d93c85b23869295b765170fbdaa92890c0da6ada457415039769edf3c959efe"
 }
