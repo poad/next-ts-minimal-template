@@ -46,20 +46,20 @@ importers:
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
       '@stylistic/eslint-plugin':
-        specifier: ^2.11.0
-        version: 2.11.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
+        specifier: ^2.12.0
+        version: 2.12.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       '@stylistic/eslint-plugin-js':
-        specifier: ^2.11.0
-        version: 2.11.0(eslint@9.16.0(jiti@1.21.6))
+        specifier: ^2.12.0
+        version: 2.12.0(eslint@9.16.0(jiti@1.21.6))
       '@stylistic/eslint-plugin-jsx':
-        specifier: ^2.11.0
-        version: 2.11.0(eslint@9.16.0(jiti@1.21.6))
+        specifier: ^2.12.0
+        version: 2.12.0(eslint@9.16.0(jiti@1.21.6))
       '@stylistic/eslint-plugin-plus':
-        specifier: ^2.11.0
-        version: 2.11.0(eslint@9.16.0(jiti@1.21.6))
+        specifier: ^2.12.0
+        version: 2.12.0(eslint@9.16.0(jiti@1.21.6))
       '@stylistic/eslint-plugin-ts':
-        specifier: ^2.11.0
-        version: 2.11.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
+        specifier: ^2.12.0
+        version: 2.12.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       '@types/node':
         specifier: ^22.10.1
         version: 22.10.1
@@ -1339,31 +1339,31 @@ packages:
     peerDependencies:
       storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
 
-  '@stylistic/eslint-plugin-js@2.11.0':
-    resolution: {integrity: sha512-btchD0P3iij6cIk5RR5QMdEhtCCV0+L6cNheGhGCd//jaHILZMTi/EOqgEDAf1s4ZoViyExoToM+S2Iwa3U9DA==}
+  '@stylistic/eslint-plugin-js@2.12.0':
+    resolution: {integrity: sha512-HMA+qhlDLmLiYC0nyLPEJT4CBq3BP9ri51WECRKmEjO6RZm41MVZCJl+IfUcp2sUvGSl3/FSK5gzgBKcVv8S3w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@stylistic/eslint-plugin-jsx@2.11.0':
-    resolution: {integrity: sha512-WmkdlAWkEhqSZ6VvwOOpr8Ee+Y9i8UzgXwz99pN7ZH0M0MEJCLtMKFKmfPNGLWCYvxoD6rXtZmzqeTMhvO3OkA==}
+  '@stylistic/eslint-plugin-jsx@2.12.0':
+    resolution: {integrity: sha512-KNMx9s6j1fH1OQ2AyJ9Rf24lOpALYuiYFiSG2TnVfYNidy6emcR8zyHDEic6mn3GIlOGq+rgxXNfKmuKCqB9Vw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@stylistic/eslint-plugin-plus@2.11.0':
-    resolution: {integrity: sha512-m8dkgJWdLMdVyZRo7+AlZ6sBPhoxn9N3I3QftfODLHkCOpF9o2K7rN0J2yX2e1lbmFKnSb/SaLrNsiqm6l4HAw==}
+  '@stylistic/eslint-plugin-plus@2.12.0':
+    resolution: {integrity: sha512-90X/B58m7TMotKFW/+UE1ETULAT5ja3XyVyMcIt5p+T5tYcZw1HtM6dJc78lEdPLewiMJ0894EURpITldpgRJw==}
     peerDependencies:
       eslint: '*'
 
-  '@stylistic/eslint-plugin-ts@2.11.0':
-    resolution: {integrity: sha512-ZBxnfSjzxUiwCibbVCeYCYwZw+P5xaQw+pNA8B8uR42fdMQIOhUstXjJuS2nTHoW5CF4+vGSxbL4gklI8WxhyA==}
+  '@stylistic/eslint-plugin-ts@2.12.0':
+    resolution: {integrity: sha512-JqoHGQCeW0dC3LN/7+ZRwTOCs3kBum2b4k7ovx+0RXeaDIINs5F+/Mp/NvTCPqDzUlBkd1HOaviKyaEWpKA7Yw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@stylistic/eslint-plugin@2.11.0':
-    resolution: {integrity: sha512-PNRHbydNG5EH8NK4c+izdJlxajIR6GxcUhzsYNRsn6Myep4dsZt0qFCz3rCPnkvgO5FYibDcMqgNHUT+zvjYZw==}
+  '@stylistic/eslint-plugin@2.12.0':
+    resolution: {integrity: sha512-IvD2WXbOoSp0zNpyYbjdSyEjZtut78RYfj2WIlbChE7HFuposTK5X1hc5+4AyqYcjLXYdD5oo/sJtqMGFNRb1w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -1835,8 +1835,8 @@ packages:
     resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
     engines: {node: '>=10.16.0'}
 
-  call-bind-apply-helpers@1.0.0:
-    resolution: {integrity: sha512-CCKAP2tkPau7D3GE8+V8R6sQubA9R5foIzGp+85EXCVSCivuxBNAWqcpn72PKYiIcqoViv/kcUDpaEIMBVi1lQ==}
+  call-bind-apply-helpers@1.0.1:
+    resolution: {integrity: sha512-BhYE+WDaywFg2TBWYNXAE+8B1ATnThNBqXHP5nQu0jWJdVvY2hvkpyB3qOmtmDePiS5/BDQ8wASEWGMWRG148g==}
     engines: {node: '>= 0.4'}
 
   call-bind@1.0.8:
@@ -5493,13 +5493,13 @@ snapshots:
     dependencies:
       storybook: 8.4.7
 
-  '@stylistic/eslint-plugin-js@2.11.0(eslint@9.16.0(jiti@1.21.6))':
+  '@stylistic/eslint-plugin-js@2.12.0(eslint@9.16.0(jiti@1.21.6))':
     dependencies:
       eslint: 9.16.0(jiti@1.21.6)
       eslint-visitor-keys: 4.2.0
       espree: 10.3.0
 
-  '@stylistic/eslint-plugin-jsx@2.11.0(eslint@9.16.0(jiti@1.21.6))':
+  '@stylistic/eslint-plugin-jsx@2.12.0(eslint@9.16.0(jiti@1.21.6))':
     dependencies:
       eslint: 9.16.0(jiti@1.21.6)
       eslint-visitor-keys: 4.2.0
@@ -5507,11 +5507,11 @@ snapshots:
       estraverse: 5.3.0
       picomatch: 4.0.2
 
-  '@stylistic/eslint-plugin-plus@2.11.0(eslint@9.16.0(jiti@1.21.6))':
+  '@stylistic/eslint-plugin-plus@2.12.0(eslint@9.16.0(jiti@1.21.6))':
     dependencies:
       eslint: 9.16.0(jiti@1.21.6)
 
-  '@stylistic/eslint-plugin-ts@2.11.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)':
+  '@stylistic/eslint-plugin-ts@2.12.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)':
     dependencies:
       '@typescript-eslint/utils': 8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       eslint: 9.16.0(jiti@1.21.6)
@@ -5521,7 +5521,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@stylistic/eslint-plugin@2.11.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)':
+  '@stylistic/eslint-plugin@2.12.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)':
     dependencies:
       '@typescript-eslint/utils': 8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       eslint: 9.16.0(jiti@1.21.6)
@@ -6126,14 +6126,14 @@ snapshots:
     dependencies:
       streamsearch: 1.1.0
 
-  call-bind-apply-helpers@1.0.0:
+  call-bind-apply-helpers@1.0.1:
     dependencies:
       es-errors: 1.3.0
       function-bind: 1.1.2
 
   call-bind@1.0.8:
     dependencies:
-      call-bind-apply-helpers: 1.0.0
+      call-bind-apply-helpers: 1.0.1
       es-define-property: 1.0.1
       get-intrinsic: 1.2.5
       set-function-length: 1.2.2
@@ -6448,7 +6448,7 @@ snapshots:
 
   dunder-proto@1.0.0:
     dependencies:
-      call-bind-apply-helpers: 1.0.0
+      call-bind-apply-helpers: 1.0.1
       es-errors: 1.3.0
       gopd: 1.2.0
 
@@ -7012,7 +7012,7 @@ snapshots:
 
   get-intrinsic@1.2.5:
     dependencies:
-      call-bind-apply-helpers: 1.0.0
+      call-bind-apply-helpers: 1.0.1
       dunder-proto: 1.0.0
       es-define-property: 1.0.1
       es-errors: 1.3.0
