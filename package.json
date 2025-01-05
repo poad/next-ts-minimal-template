@@ -38,7 +38,7 @@
     "@stylistic/eslint-plugin-jsx": "^2.12.1",
     "@stylistic/eslint-plugin-plus": "^2.12.1",
     "@stylistic/eslint-plugin-ts": "^2.12.1",
-    "@types/node": "^22.10.4",
+    "@types/node": "^22.10.5",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "cross-env": "^7.0.3",
