@@ -21,7 +21,16 @@ importers:
         specifier: ^4.2.4
         version: 4.2.4
     devDependencies:
+      '@eslint/eslintrc':
+        specifier: ^3.2.0
+        version: 3.2.0
+      '@eslint/js':
+        specifier: ^9.18.0
+        version: 9.18.0
       '@next/bundle-analyzer':
+        specifier: ^15.1.5
+        version: 15.1.5
+      '@next/eslint-plugin-next':
         specifier: ^15.1.5
         version: 15.1.5
       '@storybook/addon-essentials':
