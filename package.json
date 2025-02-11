@@ -56,7 +56,7 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-storybook": "^0.11.2",
-    "pnpm": "^10.2.1",
+    "pnpm": "^10.3.0",
     "rimraf": "^6.0.1",
     "storybook": "^8.5.3",
     "typescript": "^5.7.3",
@@ -67,5 +67,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@10.0.0+sha512.b8fef5494bd3fe4cbd4edabd0745df2ee5be3e4b0b8b08fa643aa3e4c6702ccc0f00d68fa8a8c9858a735a0032485a44990ed2810526c875e416f001b17df12b"
+  "packageManager": "pnpm@10.3.0+sha512.ee592eda8815a8a293c206bb0917c4bb0ff274c50def7cbc17be05ec641fc2d1b02490ce660061356bd0d126a4d7eb2ec8830e6959fb8a447571c631d5a2442d"
 }
