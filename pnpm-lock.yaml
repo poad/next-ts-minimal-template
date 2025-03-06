@@ -115,8 +115,8 @@ importers:
         specifier: ^0.11.4
         version: 0.11.4(eslint@9.21.0(jiti@1.21.7))(typescript@5.8.2)
       pnpm:
-        specifier: ^10.5.2
-        version: 10.5.2
+        specifier: ^10.6.0
+        version: 10.6.0
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -3308,8 +3308,8 @@ packages:
     resolution: {integrity: sha512-2Rb3vm+EXble/sMXNSu6eoBx8e79gKqhNq9F5ZWW6ERNCTE/Q0wQNne5541tE5vKjfM8hpNCYL+LGc1YTfI0dg==}
     engines: {node: '>=6'}
 
-  pnpm@10.5.2:
-    resolution: {integrity: sha512-2p3CjNP/QNBZIYgjWrJdMgKt2KIHr77caCIg5KACn/v/RWIQK55uRrTj+ei9U+bQXeSFRLDFfUsBeeIsdtEZmw==}
+  pnpm@10.6.0:
+    resolution: {integrity: sha512-3wE255fbDPp+wQhOd/O9+BusuukGaDL7+Vy6TCFArQXmTzFs3lHOP5nqAKkf/HAtau3TwPRQ+JXj58BS/lc82A==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -7857,7 +7857,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  pnpm@10.5.2: {}
+  pnpm@10.6.0: {}
 
   polished@4.3.1:
     dependencies:
