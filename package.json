@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "next": "^15.2.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
@@ -29,13 +29,13 @@
     "@eslint/js": "^9.23.0",
     "@next/bundle-analyzer": "^15.2.4",
     "@next/eslint-plugin-next": "^15.2.4",
-    "@storybook/addon-essentials": "^8.6.10",
-    "@storybook/addon-interactions": "^8.6.10",
-    "@storybook/addon-links": "^8.6.10",
-    "@storybook/blocks": "^8.6.10",
-    "@storybook/nextjs": "^8.6.10",
-    "@storybook/react": "^8.6.10",
-    "@storybook/test": "^8.6.10",
+    "@storybook/addon-essentials": "^8.6.11",
+    "@storybook/addon-interactions": "^8.6.11",
+    "@storybook/addon-links": "^8.6.11",
+    "@storybook/blocks": "^8.6.11",
+    "@storybook/nextjs": "^8.6.11",
+    "@storybook/react": "^8.6.11",
+    "@storybook/test": "^8.6.11",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@stylistic/eslint-plugin-js": "^4.2.0",
     "@stylistic/eslint-plugin-jsx": "^4.2.0",
@@ -48,7 +48,7 @@
     "eslint": "^9.23.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "^15.2.4",
-    "eslint-import-resolver-typescript": "^4.2.5",
+    "eslint-import-resolver-typescript": "^4.3.1",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest": "^28.11.0",
@@ -58,7 +58,7 @@
     "eslint-plugin-storybook": "^0.12.0",
     "pnpm": "^10.7.0",
     "rimraf": "^6.0.1",
-    "storybook": "^8.6.10",
+    "storybook": "^8.6.11",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.28.0"
   },
@@ -67,5 +67,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@10.6.5+sha512.cdf928fca20832cd59ec53826492b7dc25dc524d4370b6b4adbf65803d32efaa6c1c88147c0ae4e8d579a6c9eec715757b50d4fa35eea179d868eada4ed043af"
+  "packageManager": "pnpm@10.7.0+sha512.6b865ad4b62a1d9842b61d674a393903b871d9244954f652b8842c2b553c72176b278f64c463e52d40fff8aba385c235c8c9ecf5cc7de4fd78b8bb6d49633ab6"
 }
