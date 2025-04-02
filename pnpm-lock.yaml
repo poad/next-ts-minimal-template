@@ -2790,8 +2790,8 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
-  image-size@1.2.0:
-    resolution: {integrity: sha512-4S8fwbO6w3GeCVN6OPtA9I5IGKkcDMPcKndtUlpJuCwu7JLjtj7JZpwqLuyY2nrmQT3AWsCJLSKPsc2mPBSl3w==}
+  image-size@1.2.1:
+    resolution: {integrity: sha512-rH+46sQJ2dlwfjfhCyNx5thzrv+dtmBIhPHk0zgRUukHzZ/kRueTJXoYYsclBaKcSMBWuGbOFXtioLpzTb5euw==}
     engines: {node: '>=16.x'}
     hasBin: true
 
@@ -5540,7 +5540,7 @@ snapshots:
       babel-loader: 9.2.1(@babel/core@7.26.10)(webpack@5.98.0(esbuild@0.25.2))
       css-loader: 6.11.0(webpack@5.98.0(esbuild@0.25.2))
       find-up: 5.0.0
-      image-size: 1.2.0
+      image-size: 1.2.1
       loader-utils: 3.3.1
       next: 15.2.4(@babel/core@7.26.10)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       node-polyfill-webpack-plugin: 2.0.1(webpack@5.98.0(esbuild@0.25.2))
@@ -7458,7 +7458,7 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  image-size@1.2.0:
+  image-size@1.2.1:
     dependencies:
       queue: 6.0.2
 
