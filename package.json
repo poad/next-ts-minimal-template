@@ -41,8 +41,8 @@
     "@stylistic/eslint-plugin-jsx": "^4.2.0",
     "@stylistic/eslint-plugin-plus": "^4.2.0",
     "@stylistic/eslint-plugin-ts": "^4.2.0",
-    "@types/node": "^22.14.0",
-    "@types/react": "19.1.0",
+    "@types/node": "^22.14.1",
+    "@types/react": "19.1.1",
     "@types/react-dom": "19.1.2",
     "cross-env": "^7.0.3",
     "eslint": "^9.24.0",
@@ -70,7 +70,7 @@
   "packageManager": "pnpm@10.8.0",
   "pnpm": {
     "overrides": {
-      "@types/react": "19.1.0",
+      "@types/react": "19.1.1",
       "@types/react-dom": "19.1.2"
     }
   }
