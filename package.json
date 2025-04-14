@@ -56,7 +56,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-storybook": "^0.12.0",
-    "pnpm": "^10.8.0",
+    "pnpm": "^10.8.1",
     "rimraf": "^6.0.1",
     "storybook": "^8.6.12",
     "typescript": "^5.8.3",
@@ -67,7 +67,7 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@10.8.0",
+  "packageManager": "pnpm@10.8.1",
   "pnpm": {
     "overrides": {
       "@types/react": "19.1.1",
