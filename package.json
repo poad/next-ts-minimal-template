@@ -2,6 +2,7 @@
   "name": "next-ts-minimal-template",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "test": "echo ''",
     "dev": "next dev --turbopack",
@@ -42,8 +43,8 @@
     "@stylistic/eslint-plugin-plus": "^4.2.0",
     "@stylistic/eslint-plugin-ts": "^4.2.0",
     "@types/node": "^22.14.1",
-    "@types/react": "19.1.2",
-    "@types/react-dom": "19.1.2",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
     "cross-env": "^7.0.3",
     "eslint": "^9.24.0",
     "eslint-config-import": "^0.13.0",
@@ -70,8 +71,8 @@
   "packageManager": "pnpm@10.8.1",
   "pnpm": {
     "overrides": {
-      "@types/react": "19.1.2",
-      "@types/react-dom": "19.1.2"
+      "@types/react": ">=19.1.2",
+      "@types/react-dom": ">=19.1.2"
     }
   }
 }
