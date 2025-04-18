@@ -77,10 +77,10 @@ importers:
         specifier: ^22.14.1
         version: 22.14.1
       '@types/react':
-        specifier: '>=19.1.2'
+        specifier: ^19.1.2
         version: 19.1.2
       '@types/react-dom':
-        specifier: '>=19.1.2'
+        specifier: ^19.1.2
         version: 19.1.2(@types/react@19.1.2)
       cross-env:
         specifier: ^7.0.3
